@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+	int a=0, b=1, aux=0, posicao=0;
+	printf("Digite a posicao a ser buscada: ");
+	scanf("%d", &posicao);
+	for(int i=1; i<=posicao; i++){
+		aux = a+b;
+		a = b;
+		b = aux;
+	}
+	printf("O numero Fibonacci na posicao %d e: %d", posicao, aux);
+	printf("\n\n");
+	system("PAUSE");
+}

@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+	int cont;
+	printf("Digite um valor: ");
+	scanf("%d", &cont);
+	printf("\n");
+	for(int i =0; i<=cont; i++){
+		printf("%d\n", i);
+	}
+	printf("\n\n");
+	system("PAUSE");
+}

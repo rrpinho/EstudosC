@@ -1,0 +1,22 @@
+scanf("% ", variavel);
+switch(variavel){
+	case [número, letra]:
+		"comandos"
+	break; // opicional. Explicar  a diferença
+	
+	default:
+		"comandos"
+}
+
+1) Faça um programa que leia um número entre 0 e 10, e escreva este
+número por extenso. Use o comando switch.
+
+2) Um funcionário irá receber um aumento de acordo com o seu plano de
+trabalho, de acordo com a tabela abaixo:
+	Plano 	Aumento
+	A	 10%
+	B	 15%
+	C	 20%
+Faça um programa que leia o plano de trabalho e o salário atual de um
+funcionário e calcula e imprime o seu novo salário. Use o comando
+switch. OBS: Faça o tratamento para letras maiusculas ou minusculas.

@@ -1,0 +1,15 @@
+For(inicio;fim;incremento\decremento){
+	"comandos";
+}
+
+
+1) Escreva um programa que imprimida números do 0 até um
+número que será digitado pelo usuário.
+
+2) Escreva um programa que imprima uma sequência Fibonnaci.
+Que vai imprimindo toda a sequência até o número que da posição
+que for digitada pelo usuário.
+
+3)Pedir a leitura de um valor para a variável X, multiplicar 
+este valor por 3 atribuindo-o à variável de resposta R e 
+apresentar o valorobtido, repetindo esta seqüência por 5 vezes.

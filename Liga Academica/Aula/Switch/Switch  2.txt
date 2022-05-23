@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+	char plano;
+	float salario, salarioFinal;
+	printf("Digite o plano do funcionario: ");
+	scanf("%c", &plano);
+	printf("\nDigite o salario do funcionario: ");
+	scanf("%f", &salario);
+	switch(plano){
+		case 65: case 97:
+			salarioFinal = salario+(salario*0,1);
+			printf("O novo salario e: %.2f\n", salarioFinal);
+			break;
+		case 66: case 98:
+			salarioFinal = salario+(salario*0,15);
+			printf("O novo salario e: %.2f\n", salarioFinal);
+			break;
+		case 67: case 99:
+			salarioFinal = salario+(salario*0,2);
+			printf("O novo salario e: %.2f\n", salarioFinal);
+			break;
+		default:
+			printf("\nPlano nao encontrado\n");
+	}
+	printf("\n\n");
+	system("PAUSE");
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+	float vet[3];
+	for(int j=0; j<3; j++)
+		vet[j] = 0.0;
+	printf("Digite o 1 valor: ");
+	scanf("%f", &vet[0]);
+	printf("Digite o 2 valor: ");
+	scanf("%f", &vet[1]);
+	vet[2]= (vet[0]+vet[1])/2;
+	printf("A media e: %.2f\n\n", vet[2]);
+	for(int i=0; i<3; i++)
+		printf("\nO indice %d possui o valor %.2f", i, vet[i]);
+}

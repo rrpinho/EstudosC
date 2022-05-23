@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+main(){
+        int num, count=1;
+        printf("Digite um numero: ");
+        scanf("%d", &num);
+        while(count <= 10){
+            printf("%d * %d = %d\n", num, count, num*count);
+            count++;
+        }
+	printf("\n\n");
+	system("PAUSE");
+}

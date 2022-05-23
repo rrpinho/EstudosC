@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+main(){
+	int contador = 1, valor = 1, num=0;
+	printf("Digite o termo: ");
+	scanf("%d", &num);
+	do{
+		valor = (valor * 2) + 1;
+		contador++;
+	}while(contador < num);
+	printf("O %d termo sera: %d\n",num, valor);
+	printf("\n\n");
+	system("PAUSE");
+}

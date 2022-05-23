@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+	int x;
+	printf("Digite um numero inteiro entre 0 e 10: ");
+	scanf("%d", &x);
+	switch(x){
+		case 0:
+			printf("Voce digitou o numero zero");
+			break;
+		case 1:
+			printf("Voce digitou o numero um");
+			break;
+		case 2:
+			printf("Voce digitou o numero dois");
+			break;
+		case 3:
+			printf("Voce digitou o numero tres");
+			break;
+		case 4:
+			printf("Voce digitou o numero quatro");
+			break;
+		case 5:
+			printf("Voce digitou o numero cinco");
+			break;
+		case 6:
+			printf("Voce digitou o numero seis");
+			break;
+		case 7:
+			printf("Voce digitou o numero sete");
+			break;
+		case 8:
+			printf("Voce digitou o numero oito");
+			break;
+		case 9:
+			printf("Voce digitou o numero nove");
+			break;
+		case 10:
+			printf("Voce digitou o numero dez");
+			break;
+		default:
+			printf("Voce digitou algo invalido!");
+	}
+	printf("\n\n");
+	system("PAUSE");
+}

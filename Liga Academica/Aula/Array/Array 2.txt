@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+main(){
+	srand(time(NULL));
+	int vet[20], aux, i;
+	for(i=0; i<20; i++){
+		vet[i] = rand()%100;
+		printf("%d\n", vet[i]);
+	}
+	printf("\n\n");
+	for(i=0;i<20;i++){
+		for(int j=i+1; j<20; j++){
+			if(vet[i] > vet[j]){
+				aux = vet[i];
+				vet[i] = vet[j];
+				vet[j] = aux;
+			}
+		}
+		printf("%d\n", vet[i]);
+	}
+	printf("\n\n");
+	system("PAUSE");
+}

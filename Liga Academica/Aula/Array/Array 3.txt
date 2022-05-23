@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+main(){
+	srand(time(NULL));
+	int vet[10], num, i, cont=0;
+	printf("Digite um numero entre 0 e 9: ");
+	scanf("%d", &num);
+	for(i=0; i<10; i++){
+		vet[i] = rand()%10;
+		printf("%d\n",vet[i]);
+		if(num == vet[i])
+			cont++;
+	}
+	printf("\n\n");
+	if(cont != 0){
+		printf("O numero %d encontra-se nas seguintes posicoes: ", num);
+		for(i=0; i<10; i++){
+			if(num == vet[i])
+				printf("%d  ", i);
+		}
+	}
+	else
+		printf("O vetor nao possui o numero: %d", num);
+	printf("\n\n");
+	system("PAUSE");
+}

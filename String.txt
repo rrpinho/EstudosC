@@ -1,0 +1,27 @@
+#include<string.h>
+
+Funcões:
+	1- strlen:	<variável> = strlen(<string>);
+		Retorna a quantidade de caracteres dentro de uma variável string.
+		Ex: char nome[15] {"A""s""d""r""u""b""a""l"};
+		    x = strlen(nome); //x=8
+
+	2- strcpy:	<strcpy(<str_destino>, <str_origem>);
+		Copia a string origem para a string destino.
+		Ex: char nome1[15] {"A""s""d""r""u""b""a""l"};
+		    char nome2[15];
+		    strcpy(nome2, nome1); //nome2 = Asdrubal
+
+	3-strcmp:	<variável> = strcmp(<string1>, <string2>);
+		Compara a string1 com a string2 retornando:
+			0  --> se fores iguais
+			<0 --> se a string1 for menor que a string2
+			>0 --> se a string1 for maior que a string2
+		Ex: char nome1[15] {"A""s""d""r""u""b""a""l"};
+		    char nome2[15] {"F""i""o""n""a"};
+		    x = strcmp(nome1, nome2); //x<0
+
+	4- strcat:	strcat(<string1>, <string2>);
+		Concatena duas strings acrescentando a string2 no final da string1.
+		Ex: char nome[15] {"A""n""a"};
+		    strcat(nome, "Maria"); //nome = Ana Maria

@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+ main(){
+	int numero, count = 1;
+        printf("Digite um numero: ");
+        scanf("%d", &numero);
+        printf("IMPARES \tPARES\n");
+        while(count <= numero){
+            if(count%2 == 1)
+                printf("    %d \t",count);
+            else
+                printf("    \t %d\n", count);
+            count++;
+        }
+	printf("\n\n");
+	system("PAUSE");
+}
